@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>mini-project</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <!-- get everything on page first then style it-->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Github</a>
+                </li>
+                <li>
+                    <a href="">Portfolio</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>My New Website</h1>
+        <!-- main image of page so use figure; semantic reason-->
+        <figure>
+            <img src="./assets/image_1.png" alt="main image">
+            <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod minus iusto soluta quis ipsum nobis? Sapiente nostrum dicta ullam ipsam? Rem vel iure nam rerum, aliquid repellat non dolores quibusdam.</figcaption>
+        </figure>
+
+        <section>
+            <h2>Contact me</h2>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your name">
+                <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter you email">
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2021 Website Co.
+    </footer>
+
+
 </body>
 </html>
+<!-- <body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="">Github</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <section class="square">
+            <h1> My New Website </h1>
+            <img src="" alt="">
+        </section>
+
+        <section class="contact">
+            <div class="input">
+                <label id="name-label" for="name">Name</label>g
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="form"
+                  placeholder="Enter your name"
+                  required
+                >
+                <br>
+                <label id="name-label" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form"
+                  placeholder="Enter your email"
+                  required
+                >
+                <br>
+                <button type="submit">Send</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+</body>
+</html> -->
