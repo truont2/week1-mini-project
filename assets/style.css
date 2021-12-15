@@ -35,8 +35,8 @@ section {
 form {
     border: 3px solid tan;
     border-radius: 10px 0;
-    margin: 0 800px;
     padding-top: 10px;
+    margin: 0 500px;
 }
 
 input{
